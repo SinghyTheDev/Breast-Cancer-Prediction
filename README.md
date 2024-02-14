@@ -23,6 +23,6 @@ Four regression models were compared for predicting RFS: Linear Regression, Supp
 For the classification (PCR) task, the ANN model yielded the best results with a cross-validation score of 80%. For the regression (RFS) task, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
 
 ## 7. Conclusion
-The project identified some challenges, including imbalanced data in the PCR classification task. Despite these challenges, the models showed promise, especially when training data was increased. Feature selection and hyperparameter tuning were also crucial in model performance. Future work may involve exploring non-sequential ANN models and further research into the dataset to improve model accuracy and reliability.
+The project identified some challenges, including imbalanced data in the PCR classification task. Despite these challenges, the models showed promise, especially when training data was increased. Feature selection and hyperparameter tuning were also crucial in model performance. Future work may involve further research into the dataset to improve model accuracy and reliability.
 
 In summary, this project offers a valuable step towards personalized breast cancer treatment, with the potential to predict chemotherapy patients outcomes and contribute to the field of oncology.
