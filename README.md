@@ -23,4 +23,4 @@ For the classification (PCR) task, the ANN model yielded the best results with a
 ## Conclusion
 The models show promise, especially as training data is increased. Feature selection and hyperparameter tuning were crucial in model performance. Future work may involve further research into the dataset to improve model accuracy and reliability as there was some imbalanced data for the pCR classification task.
 
-In summary, this project offers contribution towards breast cancer treatment and the field of oncology.
+In summary, this project offers effective contribution towards breast cancer treatment and the field of oncology.
