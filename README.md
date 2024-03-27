@@ -1,10 +1,9 @@
 # Breast Cancer Prediction
 
-## Abstract
-Breast cancer is a significant health concern for women, often treated with chemotherapy. However, chemotherapy is not always effective and can also be toxic. Pathological complete response (pCR) is an indicator of treatment success, with high pCR rates leading to better relapse free survival (RFS). This project predicts pCR (classification task) and RFS (regression task) for breast cancer patients using a dataset containing clinical and MRI data. Various ML models are implemented and their hyperparameters are tuned. For the pCR predictions, the ANN model yielded the best results with a 5-fold cross validation score of 80%. For the RFS predictions, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
-
 ## Introduction
-This project focuses on predicting pCR and RFS outcomes for breast cancer patients by analysing a dataset and training various ML models. A thorough exploration of methods and findings can be seen throughout and leads to reliable models.
+Breast cancer is a significant health concern for women, often treated with chemotherapy. However, chemotherapy is not always effective and can also be toxic. Pathological complete response (pCR) is an indicator of treatment success, with high pCR rates leading to better relapse free survival (RFS).
+
+This project focuses on predicting pCR (classification task) and RFS (regression task) outcomes for breast cancer patients by analysing a dataset, pre-processing the dataset, conducting feature selection, training various ML models, tuning the models hyperparameters, and evaluating the models using appropriate methods such as k-fold cross validation, F1 score, and confusion matrices. A thorough exploration of methods and findings can be seen throughout and leads to reliable models. For the pCR predictions, the ANN model yielded the best results with a 5-fold cross validation score of 80%. For the RFS predictions, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
 
 ## Data Pre-processing
 Data pre-processing involved cleaning the dataset and handling missing values. Various techniques are used such as forward filling, mean imputation, K-nearest neighbors (KNN) imputation, and iterative imputation. Anomalies outside the 5th and 95th percentile are removed, and feature scaling is applied to standardize the data. One hot encoding is used for the age attribute.
