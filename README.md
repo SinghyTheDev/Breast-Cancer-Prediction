@@ -9,7 +9,7 @@ This project predicts pCR (classification task) and RFS (regression task) outcom
 Data pre-processing involved cleaning the dataset and handling missing values. Imputations techniques are used including K-nearest neighbors (KNN) imputation, iterative imputation, forward filling, and mean imputation. Anomalies outside the 5th and 95th percentiles are removed, and feature scaling is applied to standardize the data. One hot encoding is also conducted.
 
 ## Feature Selection
-Data is visualised to identify relevant features and correlations. Principal Component Analysis (PCA) is used to reduce dimensionality. Three wrapper methods including variance threshold, univariate feature selection, and mutual information feature selection are used to reduce dimensionality for the RFS task. Selecting the k-best attributes using ANOVA F-value scoring is used to select features in the pCR classification task.
+Data is visualized to identify relevant features and correlations. Principal Component Analysis (PCA) is used to reduce dimensionality. Three wrapper methods including variance threshold, univariate feature selection, and mutual information feature selection are used to reduce dimensionality for the RFS task. Selecting the k-best attributes using ANOVA F-value scoring is used to select features in the pCR classification task.
 
 ## PCR (Classification Task)
 Four ML models are trained to predict pCR. These are Artificial Neural Network, Logistic Regression, Support Vector Machine, and Decision Tree. They are evaluated using classification accuracy, confusion matrices, and F1 score.
