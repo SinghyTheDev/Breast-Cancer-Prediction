@@ -18,7 +18,7 @@ Four ML models are trained to predict pCR. These are Artificial Neural Network, 
 Four regression models are compared for predicting RFS: Artificial Neural Network, Linear Regression, Support Vector Machine, Decision Tree. Bayesian optimization is used to tune hyperparameters for the ANN.
 
 ## Results
-For the classification (PCR) task, the ANN model yielded the best results with a cross-validation score of 80%. For the regression (RFS) task, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
+For the classification (pCR) task, the ANN model yielded the best results with a cross-validation score of 80%. For the regression (RFS) task, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
 
 ## Conclusion
 The models show promise, especially as training data is increased. Feature selection and hyperparameter tuning were important for model performance. Future work may involve more research into the dataset to further improve the models accuracy and reliability as there was some imbalanced data for the pCR task.
