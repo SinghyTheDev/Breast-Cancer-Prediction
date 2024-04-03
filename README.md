@@ -21,6 +21,6 @@ Four regression models are compared for predicting RFS: Artificial Neural Networ
 For the classification (pCR) task, the ANN model yielded the best results with a cross-validation score of 80%. For the regression (RFS) task, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
 
 ## Conclusion
-For the regression task, the models yielded good results. For the classification task however, the models yielded very high accuracies in predicting non-returning cancers but low accuracies in predicting returning cancers as the dataset was imbalanced causing the results to also be imbalanced. Future work may involve more research into the dataset to further improve the classification tasks models.
+For the regression task, the models yielded very good results. For the classification task however, the models yielded very high accuracies in predicting non-returning cancers but low accuracies in predicting returning cancers as the dataset was imbalanced causing the results to also be imbalanced. Future work may involve more research into the dataset to further improve the classification tasks models.
 
 In summary, this project offers contribution towards breast cancer treatment and the field of oncology.
