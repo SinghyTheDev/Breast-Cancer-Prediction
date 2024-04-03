@@ -12,10 +12,10 @@ Data pre-processing involved cleaning the dataset and handling missing values. I
 Data is visualized to identify relevant features and correlations. Principal Component Analysis (PCA) is used to reduce dimensionality. Three wrapper methods including variance threshold, univariate feature selection, and mutual information feature selection are used to reduce dimensionality for the RFS task. Selecting the k-best attributes using ANOVA F-value scoring is used to select features in the pCR classification task.
 
 ## PCR (Classification Task)
-Four ML models are trained to predict pCR. These are Artificial Neural Network, Logistic Regression, Support Vector Machine, and Decision Tree. They are evaluated using classification accuracy, confusion matrices, and F1 score.
+Four ML models are trained to predict pCR. These are Artificial Neural Network, Support Vector Machine, Logistic Regression, and Decision Tree. They are evaluated using classification accuracy, confusion matrices, and F1 score.
 
 ## RFS (Regression Task)
-Four regression models are compared for predicting RFS: Artificial Neural Network, Linear Regression, Support Vector Machine, Decision Tree. Bayesian optimization is used to tune hyperparameters for the ANN.
+Four regression models are compared for predicting RFS: Artificial Neural Network, Support Vector Machine, Linear Regression, Decision Tree. Bayesian optimization is used to tune hyperparameters for the ANN.
 
 ## Results
 For the classification (pCR) task, the ANN model yielded the best results with a cross-validation score of 80%. For the regression (RFS) task, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
