@@ -5,7 +5,7 @@ Breast cancer is a significant health concern for women, often treated with chem
 
 This project predicts pCR (classification task) and RFS (regression task) outcomes for breast cancer patients by analysing patients clinical and MRI data, pre-processing the dataset, conducting feature engineering, training various ML models, tuning the models hyperparameters, and evaluating the models using appropriate methods such as k-fold cross validation. A thorough exploration of methods and findings can be seen throughout.
 
-For the pCR predictions, the ANN model yielded the best results with a 5-fold cross validation score of 80% (very high accuracies in predicting non-returning cancers but low accuracies in predicting returning cancers as dataset was imbalanced causing results to also be imbalanced). For the RFS predictions, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
+For the pCR predictions, the ANN model yielded the best results with a 5-fold cross validation score of 80% (high accuracies in predicting non-returning cancers but lower accuracies in predicting returning cancers as dataset was imbalanced causing results to also be imbalanced). For the RFS predictions, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
 
 ## Data Pre-processing
 Data pre-processing involved cleaning the dataset and handling missing values. Imputations techniques are used including K-nearest neighbors (KNN) imputation, iterative imputation, forward filling, and mean imputation. Anomalies outside the 5th and 95th percentiles are removed, and feature scaling is applied to standardize the data. One hot encoding is also conducted.
