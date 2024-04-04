@@ -1,7 +1,7 @@
 # Breast Cancer Prediction
 
 ## Description
-Breast cancer is a significant health concern for women, often treated with chemotherapy. However, chemotherapy is not always effective and can also be toxic. Pathological complete response (pCR) is an indicator of treatment success with high pCR rates leading to better relapse-free survival (RFS) which is the duration after treatment in which a patient remains free from any signs/symptoms that the cancer will return.
+Breast cancer is a significant health concern for women, often treated with chemotherapy. However, chemotherapy is not always effective. Pathological complete response (pCR) is an indicator of treatment success with high pCR rates leading to better relapse-free survival (RFS) which is the duration after treatment in which a patient remains free from any signs/symptoms that the cancer will return.
 
 This project predicts pCR (classification task) and RFS (regression task) outcomes for breast cancer patients by analysing patients clinical and MRI data, pre-processing the dataset, conducting feature selection, training various ML models, tuning the models hyperparameters, and evaluating the models using appropriate methods such as k-fold cross validation. A thorough exploration of methods and findings can be seen throughout. For the pCR predictions, the ANN model yielded the best results with a 5-fold cross validation score of 80% (very high accuracies in predicting non-returning cancers but low accuracies in predicting returning cancers as dataset was imbalanced causing results to also be imbalanced). For the RFS predictions, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
 
