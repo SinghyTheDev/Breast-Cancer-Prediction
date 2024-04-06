@@ -9,7 +9,7 @@ For the pCR predictions, the ANN model yielded the best results with a 5-fold cr
 This project predicts pCR (classification task) and RFS (regression task) outcomes for breast cancer patients by analysing patients clinical and MRI data, pre-processing the dataset, conducting feature engineering, training various ML models, tuning the models hyperparameters, and evaluating the models using appropriate methods such as k-fold cross validation. A thorough exploration of methods and findings can be seen throughout.
 
 ## Data Pre-processing
-Data pre-processing involved cleaning the dataset and handling missing values. Imputations techniques are used including K-nearest neighbors (KNN) imputation, iterative imputation, forward filling, and mean imputation. Anomalies outside the 5th and 95th percentiles are removed, and feature scaling is applied to standardize the data. One hot encoding is also conducted.
+Data pre-processing involved cleaning the dataset and handling missing values. Imputations methods are used including K-nearest neighbors (KNN) imputation, iterative imputation, forward filling, and mean imputation. Anomalies outside the 5th and 95th percentiles are removed, and feature scaling is applied to standardize the data. One hot encoding is also conducted.
 
 ## Feature Selection
 Data is visualized to identify relevant features and correlations. Principal Component Analysis (PCA) is used to reduce dimensionality. Three wrapper methods including variance threshold, univariate feature selection, and mutual information feature selection are used to reduce dimensionality for the RFS task. Selecting the k-best attributes using ANOVA F-value scoring is used to select features in the pCR classification task.
