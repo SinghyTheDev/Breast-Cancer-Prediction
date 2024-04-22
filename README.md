@@ -2,7 +2,7 @@
 
 ## Description
 
-Breast cancer is a significant health concern for women, often treated with chemotherapy. However, chemotherapy is not always effective. Pathological complete response (pCR) is an indicator of treatment success with high pCR rates leading to better relapse-free survival (RFS) which is the duration after treatment in which a patient remains free from any signs/symptoms that the cancer will return.
+Breast cancer is a significant health concern for women, often treated with chemotherapy. However, chemotherapy is not always effective. Pathological complete response (pCR) is an indicator of treatment success with high pCR rates leading to better relapse-free survival (RFS) which is the duration after treatment in which a patient remains free from any signs/symptoms of a returning cancer.
 
 On unseen test data, for the pCR predictions the ANN model yielded the best results with a 5-fold cross validation score of 80% (high accuracies in classifying non-returning cancers but lower accuracies in predicting returning cancers as dataset had few records of patients with returning cancers, causing accuracies for different categories to also be imbalanced). For the RFS predictions, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
 
@@ -24,6 +24,6 @@ Four regression models are compared for predicting RFS: Artificial Neural Networ
 For the classification (pCR) task, the ANN model yielded the best results with a cross-validation score of 80%. For the regression (RFS) task, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
 
 ## Conclusion
-For the regression task, the models yielded good results. For the classification task however, the models yielded very high accuracies in predicting non-returning cancers but lower accuracies in predicting returning cancers as the dataset was imbalanced (few records of patients with returning cancers) causing accuracies for different categories to also be imbalanced. Future work may involve more research into the dataset to further improve the models for the classification task.
+For the regression task, the models yielded good results. For the classification task however, the models yielded very high accuracies in predicting non-returning cancers but lower accuracies in predicting returning cancers as the dataset was imbalanced (dataset had few records of patients with returning cancers) causing accuracies for different categories to also be imbalanced. Future work may involve more research into the dataset to further improve the models for the classification task.
 
 In summary, this project offers contribution towards breast cancer treatment and the field of oncology.
