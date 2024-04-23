@@ -6,7 +6,7 @@ Breast cancer is a significant health concern for women, often treated with chem
 
 This project predicts pCR (classification task) and RFS (regression task) outcomes for breast cancer patients by analysing patients clinical and MRI data, pre-processing the dataset, conducting feature engineering, training various ML models, tuning the models hyperparameters, and evaluating the models using appropriate methods such as k-fold cross validation. A thorough exploration of methods and findings can be seen throughout.
 
-On unseen test data, for the pCR predictions the ANN model yielded the best results with a 5-fold cross validation score of 80% (high accuracies in classifying non-returning cancers but lower accuracies in predicting returning cancers as dataset had few records of patients with returning cancers, causing accuracies for different categories to also be imbalanced). For the RFS predictions, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
+On unseen test data, for the pCR predictions the ANN model yielded the best results with a 5-fold cross validation score of 80% (high accuracies in classifying non-returning cancers but lower accuracies in predicting returning cancers as dataset had limited records of patients with returning cancers). For the RFS predictions, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
 
 ## Data Pre-processing
 Data pre-processing involved cleaning the dataset and handling missing values. Imputations methods are used including K-nearest neighbors (KNN) imputation, iterative imputation, forward filling, and mean imputation. Anomalies outside the 5th and 95th percentiles are removed, and feature scaling is applied to standardize the data. One hot encoding is also conducted.
@@ -24,6 +24,6 @@ Four regression models are compared for predicting RFS: Artificial Neural Networ
 For the classification (pCR) task, the ANN model yielded the best results with a cross-validation score of 80%. For the regression (RFS) task, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
 
 ## Conclusion
-For the regression task, the models yielded good results. For the classification task however, the models yielded very high accuracies in predicting non-returning cancers but lower accuracies in predicting returning cancers as the dataset was imbalanced (dataset had few records of patients with returning cancers) causing accuracies for different categories to also be imbalanced. Future work may involve more research into the dataset to further improve the models for the classification task.
+For the regression task, the models yielded good results. For the classification task however, the models yielded very high accuracies in predicting non-returning cancers but lower accuracies in predicting returning cancers as the dataset was imbalanced (dataset had limited records of patients with returning cancers). Future work may involve more research into the dataset to further improve the models for the classification task.
 
 In summary, this project offers contribution towards breast cancer treatment and the field of oncology.
