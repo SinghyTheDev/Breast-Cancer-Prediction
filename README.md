@@ -21,7 +21,7 @@ Four ML models are trained to predict pCR. These are Artificial Neural Network, 
 Four regression models are compared for predicting RFS: Artificial Neural Network, Support Vector Machine, Linear Regression, Decision Tree. Bayesian optimization is used to tune hyperparameters for the ANN.
 
 ## Results
-For the classification (pCR) task, the ANN model yielded the best results with a cross-validation score of 80%. For the regression (RFS) task, the ANN model yielded the best results with a mean absolute error of 21.28 in a 5-fold cross validation.
+For the classification (pCR) task, the ANN model yielded the best results with a cross-validation score of 80%. For the regression (RFS) task, the ANN model yielded the best results with a mean absolute error of 21.28.
 
 ## Conclusion
 For the regression task, the models yielded good results. For the classification task however, the models yielded very high accuracies in predicting non-returning cancers but lower accuracies in predicting returning cancers as the dataset was imbalanced (dataset had limited records of patients with returning cancers). Future work may involve more research into the dataset to further improve the models for the classification task.
